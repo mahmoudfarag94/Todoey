@@ -39,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				4375F8402116F8BD0032EF92 /* Todoey */,
+				4375F85621172CDC0032EF92 /* Supporting Files */,
 				4375F83F2116F8BD0032EF92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +55,45 @@
 		4375F8402116F8BD0032EF92 /* Todoey */ = {
 			isa = PBXGroup;
 			children = (
-				4375F8412116F8BD0032EF92 /* AppDelegate.swift */,
-				4375F8432116F8BD0032EF92 /* TodoeyTableViewController.swift */,
-				4375F8452116F8BD0032EF92 /* Main.storyboard */,
-				4375F8482116F8BD0032EF92 /* Assets.xcassets */,
-				4375F84A2116F8BD0032EF92 /* LaunchScreen.storyboard */,
-				4375F84D2116F8BD0032EF92 /* Info.plist */,
+				4375F85521172CDA0032EF92 /* Model */,
+				4375F85421172CD70032EF92 /* View */,
+				4375F85321172CD20032EF92 /* Controller */,
 			);
 			path = Todoey;
+			sourceTree = "<group>";
+		};
+		4375F85321172CD20032EF92 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4375F8412116F8BD0032EF92 /* AppDelegate.swift */,
+				4375F8432116F8BD0032EF92 /* TodoeyTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4375F85421172CD70032EF92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4375F84A2116F8BD0032EF92 /* LaunchScreen.storyboard */,
+				4375F8452116F8BD0032EF92 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4375F85521172CDA0032EF92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4375F85621172CDC0032EF92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4375F84D2116F8BD0032EF92 /* Info.plist */,
+				4375F8482116F8BD0032EF92 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edu.self.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Todoey/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edu.self.Todoey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
